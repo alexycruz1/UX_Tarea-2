@@ -1,0 +1,158 @@
+.ButtonsPosition {
+  margin: 170px auto;
+}
+
+.BigImagePosition {
+  background-image: url('../Images/7.jpg');
+  border-bottom: 5px solid #ee6e73;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  height: 250px;
+  width: 250px;
+}
+/************************************************/
+
+.Image1 {
+  background-image: url('../Images/1.jpg');
+  background-size: contain;
+  border-bottom: 5px solid #ee6e73;
+  margin: 180px auto;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.Image2 {
+  background-image: url('../Images/2.png');
+  background-size: contain;
+  border-bottom: 5px solid #ee6e73;
+  margin: 180px auto;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.Image3 {
+  background-image: url('../Images/3.jpg');
+  background-size: contain;
+  border-bottom: 5px solid #ee6e73;
+  margin: 175px auto;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.Image4 {
+  background-image: url('../Images/4.jpg');
+  background-size: contain;
+  border-bottom: 5px solid #ee6e73;
+  margin: 175px auto;
+  height: 60px;
+  width: 60px;
+  cursor: pointer;
+}
+
+.Image5 {
+  background-image: url('../Images/5.jpg');
+  background-size: contain;
+  border-bottom: 5px solid #ee6e73;
+  margin: 170px auto;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.Image6 {
+  background-image: url('../Images/6.jpg');
+  background-size: contain;
+  border-bottom: 5px solid #ee6e73;
+  margin: 170px auto;
+  height: 70px;
+  width: 70px;
+  cursor: pointer;
+}
+
+.Image7 {
+  background-image: url('../Images/7.jpg');
+  background-size: contain;
+  border-bottom: 5px solid #ee6e73;
+  margin: 90px auto;
+  height: 250px;
+  width: 250px;
+  cursor: pointer;
+}
+
+.Image8 {
+  background-image: url('../Images/8.jpg');
+  background-size: contain;
+
+  
+  display:none;
+  cursor: pointer;
+}
+
+.Image9 {
+  background-image: url('../Images/9.png');
+  background-size: contain;
+  display:none;
+}
+
+.Image10 {
+  background-image: url('../Images/10.png');
+  background-size: contain;
+  display:none;
+}
+
+.Image11 {
+  background-image: url('../Images/11.jpg');
+  background-size: contain;
+  display:none;
+}
+
+.Image12 {
+  background-image: url('../Images/12.jpg');
+  background-size: contain;
+  display:none;
+}
+
+.Image13 {
+  background-image: url('../Images/13.jpg');
+  background-size: contain;
+  display:none;
+}
+
+.Image14 {
+  background-image: url('../Images/14.jpg');
+  background-size: contain;
+  display:none;
+}
+
+.Image15 {
+  background-image: url('../Images/15.jpg');
+  background-size: contain;
+  display:none;
+}
+
+body {
+    background: #fce4ec;
+    height: 100%;
+}
+
+.FooterButtons {
+  background:  #ee6e73;
+  cursor: pointer;
+}
+
+.CustomFont {
+  color: white;
+}
+
+.CustomIconBackground {
+  color: white;
+}
+
+.MoreAboutHover {
+  cursor: pointer;
+  color: white;
+}

@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="CSS/materialize.css" media="screen,projection" />
+  <link type="text/css" rel="stylesheet" href="CSS/StyleSheet.css" media="screen,projection" />
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Image Carousel</title>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-wrapper">
+      <a href="#" class="brand-logo right">Beta Carousel</a>
+      <ul id="nav-mobile" class="left hide-on-med-and-down">
+        <li>
+          <a href="Home.html">Home</a>
+        </li>
+        <li>
+          <a onclick="window.open('http://knowyourmeme.com/photos/trending', '_blank');">Trending</a>
+        </li>
+        <li>
+          <a onclick="window.open('http://www.nbcnews.com/news/world', '_blank');">News</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="container">
+    <div class="row">
+      <div class="col s1">
+        <div class="ButtonsPosition">
+          <a class="btn-floating btn-large waves-effect waves-light red">
+            <i class="material-icons" onclick="ClickRightArrow()">arrow_back</i>
+          </a>
+        </div>
+      </div>
+
+      <div class="col s1">
+        <div class="Image1" id="Imagen1" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div class="col s1">
+        <div class="Image3" id="Imagen2" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div class="col s1">
+        <div class="Image5" id="Imagen3" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div class="col s4">
+        <div class="Image7" id="Imagen4" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div class="col s1">
+        <div class="Image6" id="Imagen5" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div class="col s1">
+        <div class="Image4" id="Imagen6" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div class="col s1">
+        <div class="Image2" id="Imagen7" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div>
+        <div class="Image8" id="Imagen8" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div>
+        <div class="Image9" id="Imagen9" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div>
+        <div class="Image10" id="Imagen10" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div>
+        <div class="Image11" id="Imagen11" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div>
+        <div class="Image12" id="Imagen12" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div>
+        <div class="Image13" id="Imagen13" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div>
+        <div class="Image14" id="Imagen14" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div>
+        <div class="Image15" id="Imagen15" onclick="ClickImage(this)"></div>
+      </div>
+
+      <div class="col s1">
+        <div class="ButtonsPosition">
+          <a class="btn-floating btn-large waves-effect waves-light red">
+            <i class="material-icons" onclick="ClickLeftArrow()">arrow_forward</i>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col s12">
+        <div class="BigImagePosition" id="BigImage">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="page-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">Help us</h5>
+          <p class="grey-text text-lighten-4">Spread the word, tell your friends about the ultimate image carousel.</p>
+        </div>
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <a class="FooterButtons" onclick="window.open('https://twitter.com/?partner=opera15-latam', '_blank');">
+              <i class="material-icons left" style="color:white">thumb_up</i>
+              <p class="CustomFont">Twitter</p>
+            </a>
+            <a class="FooterButtons" onclick="https://plus.google.com/collections/featured?hl=en', '_blank');">
+              <i class="material-icons left" style="color:white">exposure_plus_1</i>
+              <p class="CustomFont">Google+</p>
+            </a>
+            <a class="FooterButtons" onclick="window.open('https://www.facebook.com', '_blank');">
+              <i class="material-icons left" style="color:white">group_add</i>
+              <p class="CustomFont">Facebook</p>
+            </a>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+        © 2017 Official Beta Carousel Copyright
+        <a class="MoreAboutHover" class="grey-text text-lighten-4 right" onclick="window.open('https://www.w3schools.com/bootstrap/bootstrap_carousel.asp', '_blank');">More about image carousels</a>
+      </div>
+    </div>
+  </footer>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="JS/materialize.js"></script>
+  <script type="text/javascript" src="JS/Carousel.js"></script>
+</body>
+
+</html>
